@@ -70,3 +70,4 @@ The bot will add Discord username of the requesting user as the `name` for the n
 ## TODO
 
 * Add a restricted `/zerotier ban` command to ban nodes.
+* Automate image build and push to Docker Hub.
