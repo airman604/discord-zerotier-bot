@@ -62,8 +62,8 @@ If the bot isn't showing any errors, have a bit of patience.*
 
 The following slash commands will now be available in your server:
 
-* `/zerotier help` - show help message
-* `/zerotier register` - request node authorization
+* `/zerotier-bot help` - show help message
+* `/zerotier-bot register` - request node authorization
 
 The bot will add Discord username of the requesting user as the `name` for the nodes that it authorizes. The bot also checks if string `ban` is present in the node description and will not authorize those nodes, this allows node banning in ZeroTier. Users have to join the network first before requesting ZeroTier authorization through the Bot.
 
