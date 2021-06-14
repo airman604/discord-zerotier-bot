@@ -43,11 +43,14 @@ cp template.env .env
 
 ### Step 4 - Start the Bot
 
-1. Build the Docker image:
+Build the Docker image:
+
 ```bash
 docker build -t discord-zerotier-bot .
 ```
-1. Start the Bot:
+
+Start the Bot:
+
 ```bash
 docker run --rm -it --env-file .env discord-zerotier-bot
 ```
